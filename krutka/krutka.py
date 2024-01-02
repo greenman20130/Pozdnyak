@@ -18,6 +18,7 @@ def test_logic():
         no = driver.find_element(By.XPATH, '//*[@id="endless"]/div/div/div/div/div[1]/div[1]/div/div[1]/div[1]/div/div/div/div[5]/div/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[1]/div[2]').click()
         no = driver.find_element(By.XPATH, '//*[@id="endless"]/div/div/div/div/div[1]/div[1]/div/div[1]/div[1]/div/div/div/div[6]/div/div/div[1]').click()
         time.sleep(2)
+        print("Голос отдан")
     except:
         driver.quit()
     finally:
